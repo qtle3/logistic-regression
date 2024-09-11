@@ -32,3 +32,16 @@ The script performs the following steps:
 
 5. **Visualization:**
    - The decision boundaries for the training and test set results are visualized using **contour plots** to show how well the model classifies users based on their age and estimated salary.
+
+## Key Concepts Covered
+
+- **Logistic Regression:** A popular classification algorithm used to model binary outcomes (e.g., whether a user will purchase a product or not) based on independent variables like age and salary.
+- **Feature Scaling:** Uses **StandardScaler** to scale the features, which is essential for models like Logistic Regression that rely on the distance between data points.
+- **Model Evaluation:** Evaluates the performance of the Logistic Regression model using metrics such as the **confusion matrix** and **accuracy score**.
+- **Data Visualization:** Visualizes the decision boundaries of the Logistic Regression model for both the training and test sets, providing insight into how well the model separates the two classes (purchasers vs. non-purchasers).
+
+## How to Run
+
+1. **Install required dependencies:**
+   ```bash
+   pip install numpy pandas matplotlib scikit-learn
