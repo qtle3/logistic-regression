@@ -45,3 +45,5 @@ The script performs the following steps:
 1. **Install required dependencies:**
    ```bash
    pip install numpy pandas matplotlib scikit-learn
+   python logistic_regression.py
+
